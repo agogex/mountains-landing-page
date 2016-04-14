@@ -256,20 +256,20 @@
 
 .offer-section-form {
     background-color: #fff;
-    /*height: 62px;*/
-    line-height: 62px;
+    height: 62px;
     width: 100%;
     border-radius: 5px;
     padding: 3px;
     margin-top: 30px;
-    vertical-align: central;
 }
 
     .offer-section-form label {
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         color: #848484;
+        display: inline-block;
         margin-left: 20px;
+        margin-top: 18px;
     }
 
     .offer-section-form input {
@@ -295,7 +295,8 @@
         width: 25%;
         text-align: center;
         float: right;
-        height: 65px;
+        height: 100%;
+        padding-top: 18px;
     }
 
 .lock-icon {
@@ -362,8 +363,7 @@
     background-image: url('../images/icons.png');
     background-repeat: no-repeat;
     display: inline-block;
-    position: relative;
-    top: 38%;
+    margin-top: 38%;
 }
 
 .paper {
